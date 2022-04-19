@@ -1,0 +1,33 @@
+{
+  "templateVersion": 8,
+  "features": [
+    {
+      "name": "LocationsLoadTest",
+      "streamId": "location-loadtest",
+      "templateType": "SOY",
+      "entityPageSet": {
+        "htmlTemplate": "desktop.default",
+        "urlTemplate": "desktop.url"
+      }
+    }
+  ],
+  "streams": [
+    {
+      "$id": "location-loadtest",
+      "source": "knowledgeGraph",
+      "destination": "pages",
+      "localization":{
+        "locales": ["en"]
+      },
+      "fields": [
+        "name",
+        "description"
+      ],
+      "filter": {
+        "entityTypes": [
+          "location"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{namespace desktop}
+/**
+ * @param profile
+ */
+{template .default}
+  <html>
+    <body>
+      <h1> Sites Load Test </h1>
+      <p> <strong>Name:</strong> {$profile.name} </p>
+    </body>
+  </html>
+{/template}
+
+/**
+ * @param profile
+ */
+{template .url}
+    kgtesting1-{$profile.name}
+{/template}

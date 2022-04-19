@@ -1,0 +1,40 @@
+{
+  "artifactStructure": {
+    "assets": [
+      {
+        "root": "assets"
+      }
+    ],
+    "soyTemplates": [
+      {
+        "root": "templates",
+        "pattern": "*.soy"
+      }
+    ],
+    "goTemplates": [
+      {
+        "root": "templates",
+        "pattern": "*.tmpl"
+      }
+    ],
+    "hbsTemplates": [
+      {
+        "root": "templates",
+        "pattern": "*.hbs"
+      }
+    ]
+  },
+  "base_image_tag": "node-12.18",
+  "dependencies": {
+    "installDepsCmd": "echo install",
+    "requiredFiles": []
+  },
+  "buildArtifacts": {
+    "buildSetupCmd": "echo install",
+    "buildCmd": "echo BUILD COMMAND RUNNING"
+  },
+  "livePreview": {
+    "serveSetupCmd": "echo setup",
+    "serveCmd": "echo serve"
+  }
+}
