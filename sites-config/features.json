@@ -3,7 +3,7 @@
   "features": [
     {
       "name": "LocationsLoadTest",
-      "streamId": "location-loadtest",
+      "streamId": "location-loadtest-2",
       "templateType": "SOY",
       "entityPageSet": {
         "htmlTemplate": "desktop.default",
@@ -13,7 +13,7 @@
   ],
   "streams": [
     {
-      "$id": "location-loadtest",
+      "$id": "location-loadtest-2",
       "source": "knowledgeGraph",
       "destination": "pages",
       "localization":{
